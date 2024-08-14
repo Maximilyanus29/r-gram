@@ -1,0 +1,46 @@
+//GET
+{
+    "User" : {
+        "avatar" : "link/to/avatar"
+    },
+
+    "HistoriesList" : [
+        {
+            "id" : 1,
+            "avatar" : "link/to/avatar"
+        },
+        {
+            "id" : 2,
+            "avatar" : "link/to/avatar"
+        }
+    ],
+    "Posts":[//Выбираем по лимиту. Грузим по дефолту 20 штук
+        {
+            "id" : 3,
+            "user_id" : 4,
+            "publicDateString" : "12 июля", 
+            "avatarUserId" : "link/to/avatar",
+            "type" : 1,//разные типы --image(1),video(2),history(3),shorts(4),group(5)
+            "Medias" : [
+                {"link" : "link/to/media"},
+                {"link" : "link/to/media2"}
+            ],
+            "likesCount": 12,//всего лайков
+            "commentsCountAll": 13,//всего комментов.
+            "comment" : "Чётко",//Это типа описание поста.
+            "likesUsers" : [//все пользователи которые лайкнули 
+                {"avatar" : "link/to/avatar"}
+            ],
+            "likesSubscribers" : [//мои подписчики которые лайкнули
+                {"avatar" : "link/to/avatar", "nickname" : "eugenue"}
+            ],
+            "trackName" : "Каста: вокруг шум"//  [Значение{Строка} || Аудио дорожка недоступна || Не показываем]
+            
+        }
+        //...30% постов
+        //1 рекламные пост
+        //...80% постов
+        //1 рекомендация
+        //Подгружаем ещё по лимиту ( по умолчанию 20)
+    ]
+}

@@ -1,0 +1,9 @@
+//Принимает user_id
+//return массив
+[
+    {"avatarUserId" : "path", "nickname" : "vova777", "dateString" : "2 дн.", "message": "fasdas....", "likes" : 123, "reply" : [
+        {"avatarUserId" : "path", "nickname" : "masha777", "dateString" : "23 дн.", "message": "fasdas....", "likes" : 123},
+        {"avatarUserId" : "path", "nickname" : "masha777", "dateString" : "23 дн.", "message": "fasdas....", "likes" : 123}
+    ]},
+    {"avatarUserId" : "path", "nickname" : "vova777", "dateString" : "23 дн.", "message": "fasdas....", "likes" : 123}
+]

@@ -1,0 +1,4 @@
+//POST
+int postId
+string message
+int commentId? = null
